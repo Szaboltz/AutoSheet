@@ -21,6 +21,7 @@ try:
         if data_celula == datetime.now().strftime('%d/%m/%Y'):
             row[1].value = text
             row[4].value = 6
+            break
 except Exception as e:
     print("Erro ao salvar dados:", e)
 finally:
